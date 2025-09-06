@@ -1,7 +1,7 @@
 {
   "name": "kien-truc-scalable",
   "version": "1.0.0",
-  "description": "Dự án kiến trúc phần mềm mở rộng",
+  "description": "Scalable architecture software project",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
