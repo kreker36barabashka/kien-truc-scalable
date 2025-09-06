@@ -1,7 +1,0 @@
-.gitignore
-
-node_modules/
-Dockerfile
-npm-debug.log
-.env
-*.temp
