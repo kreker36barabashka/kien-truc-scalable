@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // Kết nối đến MongoDB
-mongoose.connect('mongodb://localhost:27017/kien-truc-scalable', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/kien-truc-scalable', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Kết nối MongoDB thành công!'))
   .catch(err => console.error('Kết nối MongoDB thất bại:', err));
 
