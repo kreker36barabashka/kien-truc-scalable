@@ -1,0 +1,13 @@
+{
+  "name": "kien-truc-scalable",
+  "version": "1.0.0",
+  "description": "Dự án kiến trúc phần mềm mở rộng",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
